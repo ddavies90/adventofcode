@@ -27,7 +27,7 @@ const calculateTopThree = (array) => {
   return result;
 };
 
-const fileContents = readFileSync("input.txt", "utf-8");
+const fileContents = readFileSync("../input.txt", "utf-8");
 
 const sortedElfArray = getSortedElfCalorieArray(fileContents);
 
